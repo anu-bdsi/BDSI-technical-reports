@@ -11,3 +11,6 @@ stringi::stri_rand_strings(1, runif(1, 10, 20))
 ```
 
 
+```
+quarto publish gh-pages --no-browser
+```
