@@ -1,0 +1,10 @@
+---
+title: List of reports
+listing:
+  contents: reports
+  sort: "date desc"
+  type: table 
+  categories: true
+---
+
+

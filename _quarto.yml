@@ -1,0 +1,17 @@
+project:
+  type: website
+
+website:
+  title: "BDSI Technical Report Series"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: report.qmd
+        text: Reports
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
