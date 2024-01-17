@@ -1,10 +1,15 @@
 ---
 title: List of reports
 listing:
-  contents: reports
-  sort: "date desc"
-  type: table 
-  categories: true
+  - id: report
+    #template: report.ejs
+    contents: reports
+    sort: "date desc"
+    type: table 
+    categories: true
+    fields: [date, title, author, completed, verified]
+    page-size: 30
+    date-format: "YYYY-MM-DD"
 ---
 
 
